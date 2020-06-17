@@ -1,0 +1,52 @@
+
+body {
+    background-color: black;
+}
+
+.opening-section {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.section-1 {
+    flex:1;
+    box-sizing: content-box;
+    width: 100%;
+    background-color:#D1CFC5;
+
+}
+
+.section-2 {
+    flex:1;
+    box-sizing: content-box;
+    width: 100%;
+    background-color: #B46E52;
+
+}
+
+.section-3 {
+    flex:1;
+    box-sizing: content-box;
+    width: 100%;
+    background-color:#393B45;
+
+}
+
+.section-4 {
+    flex:1;
+    box-sizing: content-box;
+    width: 100%;
+    background-color: #5F6263;
+}
+
+h1 {
+    font-size: 1.2em;
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+
+}
