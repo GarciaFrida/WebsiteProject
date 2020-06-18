@@ -3,19 +3,15 @@ body {
     background-color: black;
 }
 
-.opening-section {
-    display: flexbox;
-    float:right;
-    width: 30%;
-    height:500px;
-    margin: 5% 0;
-    padding: 30px;
-    border-width: thin;
-    text-align: center;
+
+.main {
+    display: flex;
+    align-items: stretch;
 }
+
 .sections {
-    width: 20%;
-    height:500px;
+    width: 10%;
+    height:600px;
     margin: 5% 0;
     padding: 30px;
     border-width: thin;
@@ -27,64 +23,34 @@ body {
     background-color:#D1CFC5;
 }
 
-/* .second-section {
-    width: 20%;
-    height:500px;
-    margin: 5% 0;
-    padding: 30px;
-    float: right;
-    border-width: thin;
-    text-align: center;
-} */
-
 
 .section-2 {
     flex:1;
-    float:right;
     background-color: #B46E52;
 }
 
-/* .third-section {
-    width: 20%;
-    height:500px;
-    margin: 5% 0;
-    padding: 30px;
-    float: right;
-    border-width: thin;
-    text-align: center;
-} */
 
 .section-3 {
     flex:1;
-    float:right;
     background-color:#393B45;
 }
 
-/* .fourth-section {
-    display: flexbox;
-    width: 20%;
-    height:500px;
-    margin: 5% 0;
-    padding: 30px;
-    float: right;
-    border-width: thin;
-    text-align: center;
-} */
 
 .section-4 {
     flex:1;
-    float:right;
     background-color: #5F6263;
 }
 
 h1 {
     color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fondamento', cursive;
+    font-size: 3em;
+    position: static;
 }
 
-p-in-h1 {
+#p-in-h1 {
     color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fondamento', cursive;
 }
 
 h2 {
@@ -102,4 +68,20 @@ h2 {
 p {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.lightpole-img {
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+.eye-pic {
+    width: 250px;
+    height: 300px;
 }
