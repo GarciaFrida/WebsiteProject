@@ -4,70 +4,87 @@ body {
 }
 
 .opening-section {
-    display:flex;
-    flex-direction:row;
+    display: flexbox;
+    float:right;
+    width: 30%;
+    height:500px;
     margin: 5% 0;
-}
-
-/* .sections {
-    box-sizing: content-box;
-    width: 100%;
-    margin: 5% 0;
-    padding: 12em;
+    padding: 30px;
+    border-width: thin;
     text-align: center;
-} */
+}
+.sections {
+    width: 20%;
+    height:500px;
+    margin: 5% 0;
+    padding: 30px;
+    border-width: thin;
+    text-align: center;
+}
 
 .section-1 {
     flex:1;
-    box-sizing: content-box;
-    width: 100%;
-    margin: 5% 0;
-    padding: 1em;
-    text-align: center;
     background-color:#D1CFC5;
 }
 
+/* .second-section {
+    width: 20%;
+    height:500px;
+    margin: 5% 0;
+    padding: 30px;
+    float: right;
+    border-width: thin;
+    text-align: center;
+} */
+
+
 .section-2 {
     flex:1;
-    box-sizing: content-box;
-    width: 100%;
-    margin: 5% 0;
-    padding: 1em;
-    text-align: center;
+    float:right;
     background-color: #B46E52;
 }
 
+/* .third-section {
+    width: 20%;
+    height:500px;
+    margin: 5% 0;
+    padding: 30px;
+    float: right;
+    border-width: thin;
+    text-align: center;
+} */
+
 .section-3 {
     flex:1;
-    box-sizing: content-box;
-    width: 100%;
-    margin: 5% 0;
-    padding: 1em;
-    text-align: center;
+    float:right;
     background-color:#393B45;
 }
 
+/* .fourth-section {
+    display: flexbox;
+    width: 20%;
+    height:500px;
+    margin: 5% 0;
+    padding: 30px;
+    float: right;
+    border-width: thin;
+    text-align: center;
+} */
+
 .section-4 {
     flex:1;
-    box-sizing: content-box;
-    width: 100%;
-    margin: 5% 0;
-    padding: 1em;
-    text-align: center;
+    float:right;
     background-color: #5F6263;
 }
 
 h1 {
-    color: whitesmoke;
-    font-size: 2em;
-    display: block;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
+}
 
+p-in-h1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
