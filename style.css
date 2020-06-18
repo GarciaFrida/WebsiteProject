@@ -11,7 +11,7 @@ body {
 
 .sections {
     width: 10%;
-    height:600px;
+    height:700px;
     margin: 5% 0;
     padding: 30px;
     border-width: thin;
@@ -51,13 +51,14 @@ h1 {
 #p-in-h1 {
     color: rgb(0, 0, 0);
     font-family: 'Fondamento', cursive;
+    font-size: 2em;
 }
 
 h2 {
     color: whitesmoke;
     display: block;
     font-size: 1.2em;
-    font-family: Arial, Helvetica, sans-serif;
+    ffont-family: 'Fondamento', cursive;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
@@ -68,11 +69,19 @@ h2 {
 p {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fondamento', cursive;
 }
 
 img {
     width: 300px;
     height: 300px;
+    position: relative;
+}
+
+.tangerine-img {
+    width: 250px;
+    height: 300px;
+    border: white solid;
     position: relative;
 }
 
@@ -84,4 +93,37 @@ img {
 .eye-pic {
     width: 250px;
     height: 300px;
+    border: white solid;
+    position: relative;
+}
+
+.building-img {
+    width: 250px;
+    height: 300px;
+    border: white solid;
+    position: relative;
+}
+
+.topnav {
+    background-color: rgba(51, 51, 51, 0);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #B46E52;
+    color: white;
 }

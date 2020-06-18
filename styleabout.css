@@ -1,0 +1,30 @@
+body {
+background-color: black;
+}
+
+.main {
+    display: flex;
+    align-items: stretch;
+}
+
+.about-section {
+    flex:1;
+    width: 20%;
+    height:500px;
+    margin: 5% 0;
+    padding: 30px;
+    border-width: thin;
+    text-align: center;
+    background-color: #B4807A;
+}
+
+h1 {
+    font-family: 'Fondamento', cursive;
+    color: whitesmoke;
+    font-size:2em;
+}
+
+p {
+    font-family: 'Fondamento', cursive;
+    color: whitesmoke;
+}
