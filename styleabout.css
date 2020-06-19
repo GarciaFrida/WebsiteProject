@@ -20,6 +20,7 @@ background-color: #ccc7c0;
 .about-section {
     flex:1;
     background-color: #c79089;
+    text-align: center;
 }
 
 .divisional-section {
@@ -88,6 +89,15 @@ textarea {
 
 .topnav a.active {
     background-color: #B46E52;
+    color: white;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgb(255, 196, 148);
     color: white;
 }
 
