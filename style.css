@@ -1,8 +1,7 @@
 
 body {
-    background-color: black;
+    background-color: #ccc7c0;
 }
-
 
 .main {
     display: flex;
@@ -20,7 +19,7 @@ body {
 
 .section-1 {
     flex:1;
-    background-color:#D1CFC5;
+    background-color:#e9e7dd;
 }
 
 
@@ -58,7 +57,7 @@ h2 {
     color: whitesmoke;
     display: block;
     font-size: 1.2em;
-    ffont-family: 'Fondamento', cursive;
+    font-family: 'Fondamento', cursive;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
@@ -68,6 +67,12 @@ h2 {
 
 p {
     color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fondamento', cursive;
+}
+
+.quote{
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'Fondamento', cursive;
 }
@@ -116,6 +121,7 @@ img {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Fondamento', cursive;
 }
 
 .topnav a:hover {
