@@ -36,6 +36,7 @@ background-color: #ccc7c0;
 .img-section {
     flex:1;
     background-color: whitesmoke;
+    box-shadow: 12px 12px 2px 1px rgb(212, 178, 178);
 }
 
 h1 {
